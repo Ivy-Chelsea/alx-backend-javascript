@@ -8,4 +8,5 @@ File | Description
 [3-all.js](./3-all.js) | Script that imports ***uploadPhoto*** and ***createUser*** from ***utils.js***. <br> utils.js returns promises, so function ***handleProfileSignup()*** is used to collectively resolve all promises and log ***body, firstName, lastName*** to the console.
 [4-user-promise.js](./4-user-promise.js) | Script that returns a resolved promise usig objects firstName and lastName.
 [5-photo-reject.js](./5-photo-reject.js) | Script that writes and export a function ***uploadPhoto*** that accepts one argument ***fileName(string)*** and returns a promise rejecting with an Error and the string ***$fileName cannnot be processed***.
+[6-final-user.js](./6-final-user.js) | Script that imports ***signUpUser*** from 4-user-promise.js and upkloadPhoto from 5-photo-reject.js
 [
