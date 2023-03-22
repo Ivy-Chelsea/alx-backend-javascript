@@ -11,4 +11,5 @@ File | Description
 [6-final-user.js](./6-final-user.js) | Script that imports ***signUpUser*** from 4-user-promise.js and ***uploadPhoto*** from 5-photo-reject.js
 [7-load_balancer.js](./7-load_balancer.js) | Script that writes and exports function ***loadBalancer***, accept arguments ****chinaDownload*** and ****USDownload*** and returns value returned by the Promise that resolved the first
 [8-try.js](./8-try.js) | Function ***divideFunction*** that accept arguments ***numerator*** and ***denominator***
-[
+[9-try.js](./9-try.js) | When function ***mathFunction*** is executed, the value returned by the function is appended to the queue. <br> If function throws an error, the error message is appended to the queue. <br> In every case, the message ***'Guardrail was processed'*** is added to the queue.
+[10-await.js](./10-await.js) | Script that imports ***uploadPhoto*** and ***createUser*** from ***utils.js***.<br> An async function, ***asyncUploaduUser*** clls the above functions and returns an object with a format containing object photo and user.
