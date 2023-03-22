@@ -7,4 +7,5 @@ File | Description
 [2-then.js](./2-the.js) | Script that appends three handlers to function using function prototype function **handleResponseFromAPI(promise)**: <br> * When the promise resolves, returns an object with the following attributes: <br> ~ status: 200 <br> ~ bosy: success <br> * When the promise rejects, returns an empty Error object. <br> * For every resolution, logs **got a response from the API** to the console.
 [3-all.js](./3-all.js) | Script that imports ***uploadPhoto*** and ***createUser*** from ***utils.js***. <br> utils.js returns promises, so function ***handleProfileSignup()*** is used to collectively resolve all promises and log ***body, firstName, lastName*** to the console.
 [4-user-promise.js](./4-user-promise.js) | Script that returns a resolved promise usig objects firstName and lastName.
+[5-photo-reject.js](./5-photo-reject.js) | Script that writes and export a function ***uploadPhoto*** that accepts one argument ***fileName(string)*** and returns a promise rejecting with an Error and the string ***$fileName cannnot be processed***.
 [
