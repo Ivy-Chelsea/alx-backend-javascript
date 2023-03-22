@@ -9,4 +9,5 @@ File | Description
 [4-user-promise.js](./4-user-promise.js) | Script that returns a resolved promise usig objects firstName and lastName.
 [5-photo-reject.js](./5-photo-reject.js) | Script that writes and export a function ***uploadPhoto*** that accepts one argument ***fileName(string)*** and returns a promise rejecting with an Error and the string ***$fileName cannnot be processed***.
 [6-final-user.js](./6-final-user.js) | Script that imports ***signUpUser*** from 4-user-promise.js and ***uploadPhoto*** from 5-photo-reject.js
+[7-load_balancer.js](./7-load_balancer.js) | Script that writes and exports function ***loadBalancer***, accept arguments ****chinaDownload*** and ****USDownload*** and returns value returned by the Promise that resolved the first
 [
