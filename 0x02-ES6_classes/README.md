@@ -13,4 +13,4 @@ File | Description
 [8-hbtn_class.js](./8-hbtn_class.js) | Script that implements class ***HolbertonClass***.<br>When class is cast into a Number, it returns the size.<br>When class is cast into a String, it returns the location.
 [9-hoisting.js](./9-hoisting.js) | Fixed script
 [10-car.js](./10-car.js) | Script that implements class ***Car***.<br>A methos ***cloneCar*** is added and it returns a new object of the class.
-[100-
+[100-evcar.js](./100-evcar.js) | Script that:<br>~ Imports ***Car*** from ***10-car.js***.<br>~ Implements class ***EVCar*** that extends class ***Car***.<br>~ For privacy raesons, when ***cloneCar*** is called on a ***EVCar*** object, the object returned will be an instance of ***Car*** instead of ***EVCar***.
