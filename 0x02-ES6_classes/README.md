@@ -10,4 +10,5 @@ File | Description
 [5-building.js](./5-building.js) | Script that implements class ***Building***
 [6-sky_high.js](6-sky_high.js) | Script that:<br>~ imports ***Building*** from 5-building.js.<br> ~ Implements class ***SkyHighBuilding*** that extends from ***Building***.<br> ~ Overrides method ***evacuationWarningMessage*** and return string ***Evacuate slowly the NUMBER_OF_FLOORS floors***.
 [7-airport.js](./7-airport.js) | Script that implements class ***Airport***.<br>The default string description of the class returns the airport code.
-[8-
+[8-hbtn_class.js](./8-hbtn_class.js) | Script that implements class ***HolbertonClass***.<br>When class is cast into a Number, it returns the size.<br>When class is cast into a String, it returns the location.
+[9-
