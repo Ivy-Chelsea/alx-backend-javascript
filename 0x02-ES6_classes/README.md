@@ -12,4 +12,5 @@ File | Description
 [7-airport.js](./7-airport.js) | Script that implements class ***Airport***.<br>The default string description of the class returns the airport code.
 [8-hbtn_class.js](./8-hbtn_class.js) | Script that implements class ***HolbertonClass***.<br>When class is cast into a Number, it returns the size.<br>When class is cast into a String, it returns the location.
 [9-hoisting.js](./9-hoisting.js) | Fixed script
-[10-
+[10-car.js](./10-car.js) | Script that implements class ***Car***.<br>A methos ***cloneCar*** is added and it returns a new object of the class.
+[100-
