@@ -1,13 +1,21 @@
 /**
- * A weak map of endpoints and the number of calls made
+ * A weak map of endpoints and the number of calls made.
  */
-export conts weakMap = new WeakMap();
+export const weakMap = new WeakMap();
 
 /**
- * The maximum number of calls for an endpoint
+ * The maximum number of calls for an endpoint.
  */
 const MAX_ENDPOINT_CALLS = 5;
 
+/**
+ * Tracks the number of calls made to an API's endpoint.
+ * @param {{
+ *   protocol: String,
+ *   name: String,
+ * }} endpoint - The endpoint to make a request to.
+ * @author Haile G <https://github.com/HaileGG>
+ */
 export function queryAPI(endpoint) {
   if (!weakMap.has(endpoint)) {
     weakMap.set(endpoint, 0);
