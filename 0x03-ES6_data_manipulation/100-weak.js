@@ -1,7 +1,7 @@
 /**
  * A weak map of endpoints and the number of calls made
  */
-export conts weakMap = new weakMap();
+export conts weakMap = new WeakMap();
 
 /**
  * The maximum number of calls for an endpoint
